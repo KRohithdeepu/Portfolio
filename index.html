@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/033e12c4b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <img src="./images/logo.png"  class="logo">
+
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Python FullStack Developer</p>
+            <h1>Hi,I am  <span>Karamala Rohith</span><br>from Puttur,Andhra Pradesh,India.</h1>
+        </div>
+    </div>
+</div>
+<!--About Section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./About_Rohith.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As an aspiring software engineer, I bring a strong foundation in software development, debugging, and a passion for delivering high-quality, scalable software solutions. My expertise spans across Python, Django, MySQL, and web development, complemented by a solid understanding of data structures and algorithms. I am dedicated to crafting efficient, user-centric applications that solve real-world problems and drive impactful results.
+                    In my previous projects, I successfully led the development of an AI-powered road safety project, which resulted in a 20% improvement in processing speed and a 15% enhancement in project efficiency. This experience not only honed my technical skills but also strengthened my ability to tackle complex challenges, optimize performance, and deliver innovative solutions. I take pride in my problem-solving abilities and my adaptability to rapidly evolving technologies and dynamic environments.
+                    Collaboration is at the heart of my work ethic. I thrive in team settings, where I can contribute my skills while learning from others to achieve shared goals. My approach to software engineering is rooted in continuous learning and growth, ensuring that I stay ahead of industry trends and apply the latest best practices to my work.
+                    I am passionate about leveraging technology to create meaningful solutions that improve user experiences and drive business success. Whether it’s building robust backend systems, designing intuitive front-end interfaces, or optimizing database performance, I am committed to delivering excellence at every stage of the development lifecycle.
+                    If you’re looking for a dedicated, innovative, and results-driven software engineer to join your team, I’d love to connect and explore how I can contribute to your organization’s success. Let’s build something amazing together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internships</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend:</span>HTML5, CSS3, JavaScript, React Js</li>
+                            <li><span>Backend:</span> Python, Django</li>
+                            <li><span>Database:</span> MySQL</li>
+                            <li><span>Tools:</span> Githubs, VS Code</li>
+                            <li><span>Others:</span> Data Structures & Algorithms, Debugging, Performance Optimization.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Electronic Arts-Software Engineering Job Simulation Internship-(Forage):</span>Developed four interactive prototypes during the virtual job simulation program, enhancing
+                                understanding of user experience design and leading to a 30% improvement in participant
+                                feedback on usability features.Significant annual cost savings were achieved as a result of a
+                                15% increase in data processing efficiency.</li>
+                            <li><span>Skyscanner-Software Engineering Job Simulation Internship-(Forage):</span>Completed practical tasks in React web app development, microservices, mobile flight itinerary,
+                                and user-friendly platform design.Executed practical assignments focusing on React web app
+                                design and architecture of microservices; developed an intuitive mobile flight itinerary feature
+                                achieving positive feedback from 95% of participants during usability testing.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology (Computer Science); CGPA:7.5</span><br>Siddharth Institute of Engineering and Technology, Puttur, Andhra Pradesh, India.</li>     
+                            <li><span>Board of Intermediate Education; Percentage:92%</span><br>Sri Chaitanya College of Education,Tirupathi, Andhra Pradesh, India.</li>     
+                            <li><span>Board of Secondary School Education; Percentage:9.8</span><br>Sri Chaitanya College of Education, Puttur, Andhra Pradesh, India.</li>     
+                        </ul>
+                    </div>                  
+        </div>
+        </div>
+    </div>
+</div>
+<!--Services Section-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-laptop-code"></i>
+                <h2>Web Application Development</h2>
+                <p>I build fully responsive, user-friendly, and scalable web applications using modern frontend and backend technologies. 
+                    From designing clean UI/UX interfaces to implementing robust server-side logic, 
+                    I ensure seamless user experiences and high performance. My stack includes React or plain JavaScript for the frontend and 
+                    Djangofor backend APIs and data management.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-database"></i>
+                <h2>Database Design & Management</h2>
+                <p>Design and manage robust, scalable, and secure databases tailored to application needs. 
+                    Experienced in working with both relational databases like MySQL databases. 
+                    I ensure data integrity, optimize queries, and implement efficient schema designs using tools 
+                    like Django. Proficient in database migrations, indexing, and performance tuning.</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-link"></i>
+                <h2>REST API Development</h2>
+                <p>I specialize in building robust and secure RESTful APIs using Django REST Framework. 
+                My APIs are designed to be scalable, well-documented, and easy to integrate with 
+                frontend or mobile applications. 
+                I implement best practices such as token-based authentication (JWT), 
+                input validation, and versioning to ensure seamless and reliable data communication between 
+                systems.</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Portfolio Section-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./Image Search Engine.jpg">
+                <div class="layer">
+                    <h3>Image Search Engine</h3>
+                    <p> project is a fully responsive web application that allows users to search and 
+                        view high-quality images based on keywords using the Unsplash API. 
+                        
+                        
+                        </p>
+                        <a href="https://rohith-image-search-engine.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square" ></i></a>
+
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="./Smart Road Project.jpg" >
+                <div class="layer">
+                    <h3>Smart Road Safety For Damaged Roads And Lane Detection Using Deep Learning Models</h3>
+                    <p> This project focuses on enhancing road safety by detecting damaged roads (like potholes, cracks) 
+                        and road lanes using deep learning techniques.</p>
+                        
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="./College_Website.jpg">
+                <div class="layer">
+                    <h3>Designed a College Website Using Frontend Technologies</h3>
+                    <p> Developed a responsive and interactive front-end website. 
+                        The site provides detailed information about the institution.
+                        <br></p>
+                        <a href="https://rohith-siddharth-institute.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--Contact Section-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>karamalarohith012@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 6304277503</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/karamala-rohith-a2a529321/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.karamalarohith012@gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/rohith_deepu2/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="./New_Karamala_Rohith_Resume.pdf" target="_blank" class="btn btn2">My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright<i class="fa-solid fa-copyright"></i>Karamala Rohith</p>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbykmZoNCRQ0w_qz5w18b4smeoFX7DKQw-uwQF2Lwp4z7w9xZLUXgez9fD7heWasYzia/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },500)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>    
+</body>
+</html>
