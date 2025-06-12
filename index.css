@@ -48,8 +48,8 @@ nav {
     z-index: 10;
 }
 .logo {
-    width: 140px;
-    padding-left: 40px;
+    width: 180px;
+    padding-left: 0px;
 
 }
 nav ul li a{
@@ -475,4 +475,9 @@ nav .fa-solid{
     padding: 0 10px;
     font-size: 12px;
   }
+  .logo {
+    width: 140px;
+    padding-left: 0px;
+
+}
 }
